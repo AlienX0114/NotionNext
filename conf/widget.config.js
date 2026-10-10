@@ -32,8 +32,7 @@ module.exports = {
       name: '不是故意',
       artist: 'BY2',
       url: 'https://i.urusai.cc/g2TkH.mp3',
-      cover:
-        ''
+      cover: 'https://imge.kugou.com/stdmusic/20250121/20250121162903404081.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
